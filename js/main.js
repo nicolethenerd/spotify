@@ -1,3 +1,10 @@
+$.getJSON('https://api.spotify.com/v1/search', {
+	type: 'artist',
+	artist: 'Lionel Ritchie',
+}, function(data) {
+	console.log(data);
+});
+
 $('#weather-btn').click(function() {
 	// Get the value from #city-in
 	const city = $('#city-in').val();
