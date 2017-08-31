@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+
+		<!-- CSS Reset -->
+		<link rel="stylesheet" href="css/reset.css">
+		<!-- Any CSS libraries -->
+
+		<!-- Your CSS -->
+		<link rel="stylesheet" href="css/main.css">
+	</head>
+	<body>
+		<a href="https://accounts.spotify.com/authorize?client_id=
+ecff321031bc4196b5a3c033a9ebc45e&response_type=token&redirect_uri=http:%2F%2Flocalhost:8000">Log in to Spotify</a>
+
+		<input id="city-in" type="text">
+		<button id="weather-btn">Go</button>
+
+		<div>Weather: <span id="weather-out"></span></div>
+		<div>Temperature: <span id="temp-out"></span>&deg;F</div>
+		<div>Humidity: <span id="humidity-out"></span>%</div>
+		<div>Wind speed: <span id="wind-out"></span> miles/hour</div>
+
+		<img id="icon" src="" alt="">
+
+		<!-- Always load jQuery first -->
+		<script
+  src="http://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+		<!-- Then, any JS libraries -->
+
+		<!-- Lastly, your JS -->
+		<script src="js/main.js"></script>
+	</body>
+</html>
